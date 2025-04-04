@@ -76,7 +76,7 @@ if uploaded_file:
         df["Next Failure Date"] = df.groupby("equipment_id")["created_at"].shift(-1)
         df["duration"] = (df["Next Failure Date"] - df["created_at"]).dt.days
         df.drop(columns=["Next Failure Date"], inplace=True)
-        df["duration"].fillna(df["duration"].median(), inplace=True)
+        df = df.assign(duration=df["duration"].fillna(df["duration"].median()))
         df["event_observed"] = 1
         df.loc[df.sample(frac=0.2, random_state=42).index, "event_observed"] = 0
         df_original = df.copy()
