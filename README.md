@@ -68,6 +68,8 @@ streamlit run app.py
 ```
 ---
 ## ⚙️ Screenshots
+![Screenshot 2025-06-19 152922](https://github.com/user-attachments/assets/2982d94e-2b28-4bdb-93c1-89bb39395cb9)
+
 
 ---
 📬 Contact
