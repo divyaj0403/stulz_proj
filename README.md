@@ -1,40 +1,53 @@
-**🛠 Equipment Failure Dashboard with Predictive Maintenance and Customer Service Chatbot**
-This project is a Streamlit web application that provides interactive data analysis, predictive maintenance insights, and an integrated customer service chatbot for equipment failure management. It helps identify failure-prone models and components, perform root cause analysis using the Apriori algorithm, predict future equipment failures using Random Survival Forest models, and assist users with real-time answers through a conversational chatbot.
+# 🛠 Equipment Failure Dashboard with Predictive Maintenance and Customer Service Chatbot
 
-**📌 Features**
-**🔍 Data Analysis**
-Upload equipment failure CSV files
-Filter data by model numbers and part names
-Visualize top models and parts by failure rate
-Root Cause Analysis using Apriori Algorithm for association rules
+This project is a **Streamlit web application** that provides **interactive data analysis**, **predictive maintenance insights**, and an integrated **customer service chatbot** for equipment failure management. It helps identify failure-prone models and components, perform root cause analysis using the Apriori algorithm, predict future equipment failures using Random Survival Forest models, and assist users with real-time answers through a conversational chatbot.
 
-**🔧 Predictive Maintenance**
-Predict "Time to Failure" for equipment using Random Survival Forest
-Calculate Failure Risk Scores
-Analyze high-risk spare parts
-Visualize failure time distribution and risk score comparisons
-Suggest spare part optimization based on risk level
+---
 
-**🤖 Customer Service Chatbot**
-Conversational interface integrated into the dashboard
-Built using Gemini Flash 2.0, optimized for fast and accurate responses
-Trained on intent-based Q&A pairs generated from original equipment failure data
-Capable of answering queries related to:
-  *Equipment models and their failure trends*
-  *Specific part failure reasons*
+## 📌 Features
 
-**🚀 Tech Stack & Tools**
-Frontend: Streamlit
-Visualization: Plotly, Matplotlib, Seaborn
-Data Manipulation: Pandas, NumPy
-Machine Learning:
-  *Association Rules: mlxtend*
-  *Predictive Modeling: sksurv (scikit-survival)*
-  *Modeling: Random Survival Forests*
-Chatbot Integration:
-  *LLM: Gemini Flash 2.0*
-  *Training Data: Custom intent-based Q&A generated from domain-specific datasets*
-  *NLP Preprocessing: Tokenization, embedding generation, and similarity matching*
+### 🔍 Data Analysis
+
+- Upload equipment failure CSV files  
+- Filter data by model numbers and part names  
+- Visualize top models and parts by failure rate  
+- Root Cause Analysis using **Apriori Algorithm** for association rules  
+
+### 🔧 Predictive Maintenance
+
+- Predict **"Time to Failure"** for equipment using **Random Survival Forest**  
+- Calculate **Failure Risk Scores**  
+- Analyze high-risk spare parts  
+- Visualize failure time distribution and risk score comparisons  
+- Suggest spare part optimization based on risk level  
+
+### 🤖 Customer Service Chatbot
+
+- Conversational interface integrated into the dashboard  
+- Built using **Gemini Flash 2.0**, optimized for fast and accurate responses  
+- Trained on **intent-based Q&A pairs** generated from original equipment failure data  
+- Capable of answering queries related to:  
+  - *Equipment models and their failure trends*  
+  - *Specific part failure reasons*  
+  - *Predictive maintenance insights and usage instructions*  
+  - *Navigation and feature help within the dashboard*  
+
+---
+
+## 🚀 Tech Stack & Tools
+
+- **Frontend**: Streamlit  
+- **Visualization**: Plotly, Matplotlib, Seaborn  
+- **Data Manipulation**: Pandas, NumPy  
+- **Machine Learning**:  
+  - **Association Rules**: `mlxtend`  
+  - **Predictive Modeling**: `sksurv` (scikit-survival)  
+  - **Modeling**: Random Survival Forests  
+- **Chatbot Integration**:  
+  - **LLM**: Gemini Flash 2.0  
+  - **Training Data**: Custom intent-based Q&A generated from domain-specific datasets  
+  - **NLP Preprocessing**: Tokenization, embedding generation, and similarity matching  
+
 
 ---
 
